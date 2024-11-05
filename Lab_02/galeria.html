@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="timer()">
 
     <div id="container">
         <div id="nav-menu">
@@ -17,13 +17,15 @@
             <nav class="option"><a href="galeria.html">Galeria</a></nav>
             <nav class="option"><a href="omnie.html">O mnie</a></nav>
         </div>
-        <br><br>
-
-        <h2 class="h2_gallery">Moja galeria zdjęć :)</h2>
+        <section>
+        <div class="zegar"></div>
+        <script src="zegar.js"></script>
+        <h2 class="h2_gallery open-sans-bold">Moja galeria zdjęć :)</h2>
         <p class="p">Odkryj piękno świata w zdjęciach! Poniżej znajdziesz moje ulubione kadry z miejsc,
             które udało mi się odwiedzić. Każde zdjęcie to chwila w mojej podróży i zaproszenie
             do wyruszenia w nią razem ze mną. Wybierz miejsce lub kategorię, by zobaczyć je w całej
             okazałości!</p>
+        </section>
         <div class="gallery_container">
             <div class="gallery">
                 <div class="gallery-item">

@@ -13,7 +13,10 @@ function timer(){
     var sekunda = dzisiaj.getSeconds();
     if (sekunda < 10) sekunda = "0" + sekunda
 
-    document.getElementById("zegar").innerHTML =
-        dzien+"/"+miesiac+"/"+rok+" | "+godzina+":"+minuta+":"+sekunda;
-    setTimeout("timer()",1000);
+    const zegary = document.getElementsByClassName("zegar");
+    for (let i = 0; i < zegary.length; i++) {
+        zegary[i].innerHTML =
+            dzien + "/" + miesiac + "/" + rok + " | " + godzina + ":" + minuta + ":" + sekunda;
+        setTimeout("timer()", 1000);
+    }
 }
