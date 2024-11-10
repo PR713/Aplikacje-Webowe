@@ -14,7 +14,7 @@
         <div id="nav-menu">
             <nav class="option"><a href="index.html">Home</a></nav>
             <nav class="option"><a href="galeria.html">Galeria</a></nav>
-            <nav class="option"><a href="omnie.html">O mnie</a></nav>
+            <nav class="option"><a href="o-mnie.html">O mnie</a></nav>
         </div>
         <section class="section">
             <div class="zegar"></div>
@@ -25,12 +25,28 @@
                 pełne niesamowitych historii. Moje podróże to dla mnie nie tylko sposób
                 na ucieczkę od codzienności, ale przede wszystkim szansa na rozwój i zdobywanie
                 nowych doświadczeń. Moim celem jest odwiedzenie każdego kontynentu i dzielenie się
-                swoimi wrażeniami z innymi.</p>
+                swoimi wrażeniami z innymi. Jeśli masz jakieś pytania śmiało pisz!</p>
 
-            <p class="p">'To do formularz kontaktowy o polecenie miejsc, współpracę? Wspólne wyjazdy?
-            Kto wie!'</p>
         </section>
-
+        <form id="emailform" novalidate>
+            <h3 id="formh2">Formularz kontaktowy :)</h3>
+            <label for="email">Adres e-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Wyślij</button>
+            <p id="email-error-message"></p>
+            <div id="selecting">
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Wybierz temat</option>
+                    <option value="wspolpraca">Współpraca</option>
+                    <option value="polecenie">Polecenie miejsc</option>
+                    <option value="wyjazdy">Wspólne wyjazdy</option>
+                    <option value="inne">Inne</option>
+                </select>
+            </div>
+            <textarea id="message" name="message" rows="4" cols="50" required placeholder="Wpisz swoją wiadomość tutaj..."></textarea>
+            <p id="text-error-message"></p>
+        </form>
+        <script src="forms.js"></script>
         <footer>Radosław Szepielak 2024 &copy; Wszelkie prawa zastrzeżone</footer>
 
     </div>
