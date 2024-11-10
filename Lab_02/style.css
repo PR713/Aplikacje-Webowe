@@ -204,10 +204,10 @@ a {
 
 
 #emailform {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
     margin-bottom: 3vh;
-    width: 300px}
+    width: 305px}
 
 label {
     margin-top: 4px;
@@ -258,7 +258,8 @@ button:hover {
 
 
 #message {
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     min-height: 15vh;
     max-height: 15vh;}
 
