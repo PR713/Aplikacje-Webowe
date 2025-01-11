@@ -9,8 +9,6 @@
       <change beforePath="$PROJECT_DIR$/KursReactVite/my-react-app9/src/components/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/KursReactVite/my-react-app9/src/components/Product.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KursReactVite/my-react-app9/src/components/ProductDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/KursReactVite/my-react-app9/src/components/ProductDetails.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KursReactVite/my-react-app9/src/components/ProductList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/KursReactVite/my-react-app9/src/components/ProductList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KursReactVite/my-react-app9/src/components/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/KursReactVite/my-react-app9/src/components/Search.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KursReactVite/my-react-app9/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/KursReactVite/my-react-app9/src/pages/HomePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
     &quot;Node.js.server.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.user.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lab5&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab6&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.3.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.10.1&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/radsz/Desktop/Projekt_WDAI&quot;,
@@ -237,6 +235,8 @@
       <workItem from="1736255786628" duration="7404000" />
       <workItem from="1736265065631" duration="3727000" />
       <workItem from="1736274479028" duration="6580000" />
+      <workItem from="1736293644248" duration="56000" />
+      <workItem from="1736604547540" duration="2875000" />
     </task>
     <servers />
   </component>

@@ -1,10 +1,10 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React from "react";
+import { useParams } from "react-router-dom";
 
 function ProductDetails() {
-    const { id } = useParams();///??????????????
-    const storedProducts = localStorage.getItem('products');
-    const products = storedProducts ? JSON.parse(storedProducts).data : [];
+    const { id } = useParams();
+    const storedProducts = localStorage.getItem("products");
+    const products = storedProducts ? JSON.parse(storedProducts) : [];
     const product = products.find(p => p.id === Number(id));
 
     return (
