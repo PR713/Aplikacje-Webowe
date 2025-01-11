@@ -13,12 +13,14 @@ function ProductList() {
                 const parsedProducts = JSON.parse(storedProducts);//to już tablica ale w formie stringa
                 setProducts(parsedProducts);
                 setFilteredProducts(parsedProducts);
+                console.log("korzystam z danych z localStorage");
             } else {
                 const response = await fetch("https://dummyjson.com/products");
                 const data = await response.json();
                 localStorage.setItem("products", JSON.stringify(data.products));
                 setProducts(data.products); //wyjmuję z obiektu data tablicę products
                 setFilteredProducts(data.products);
+                console.log("korzystam z danych z API");
             }
         };
 
